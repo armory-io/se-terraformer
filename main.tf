@@ -5,5 +5,5 @@ provider "aws" {
 module "s3" {
     source = "./s3"
     # bucket name should be unique
-    bucket_name = "armory-terraformer-mce1"   
+    bucket_name = "armory-terraformer-matt"   
 }
