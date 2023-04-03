@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "armory-se-teraformer"
+    bucket = "mth-spinnaker-bucket"
     key    = "tfstate/terraformer-demo-block"
-    region = "us-west-2"
+    region = "us-east-2"
   }
 }
